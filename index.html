@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div>
+      <h3>Plot</h3>
+      <input type="radio" name="plot" id="prime" onchange="update()" checked>prime number<br>
+      <input type="radio" name="plot" id="multiple" onchange="update()">multiple of
+      <input type="number" id="mod" value="7" oninput="update()">
+      <h3>Index</h3>
+      <input type="radio" name="order" id="triangleOrder" onchange="update()" checked>triangle<br>
+      <input type="radio" name="order" id="squareOrder" onchange="update()">square
+    </div>
+  </body>
+</html>
